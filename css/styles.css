@@ -143,6 +143,7 @@ border: none;
 cursor: pointer;
 display: block;
 flex-direction: column;
+margin: 0 auto;
 }
 
 .button:hover,
