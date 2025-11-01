@@ -81,15 +81,16 @@ color: #434455;
 
 .header-background {
     border-bottom: 1px solid#e7e9fc;
-    
+    width: 1158px; 
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
 }
 .container {
     padding-left: 15px;
     padding-right: 15px;
-    width: 1158px;
     display: flex;
-    margin: 0 auto;
-    padding: 0 15px
 }
 .main-nav {
     display: flex;
@@ -99,10 +100,13 @@ color: #434455;
 .main-logo {
     margin-right: 76px;;
 }
-
-.nav-link {
+.menu {
     display: flex;
     gap: 40px;
+    margin-right: auto;
+}
+
+.nav-link {
     padding: 24px 0;
 }
 .contact-info {
