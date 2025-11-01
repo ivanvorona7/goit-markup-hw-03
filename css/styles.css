@@ -313,6 +313,7 @@ border-top: none;
     color: #f4f4fd;
 }
 .footer-logo {
+    display: inline-block;
     font-family: 'Raleway',sans-serif;
         font-weight: 700;
         font-size: 18px;
@@ -322,7 +323,6 @@ border-top: none;
         color: #4d5ae5;
         background-color: #2e2f42;
         margin-bottom: 16px;
-        display: inline-block;
 }
 
 .footer-text {
