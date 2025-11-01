@@ -85,7 +85,7 @@ color: #434455;
 }
 
 .header-background {
-    border-bottom: 1px solid #e7e9fc;
+border-bottom: 1px solid #e7e9fc;
 }
 
 .container {
@@ -95,12 +95,6 @@ padding: 0 15px;
 display: flex;
 justify-content: space-between;
 align-items: center;
-}
-
-.container {
-    width: 1158px;
-    margin: 0 auto;
-    padding: 0 15px;
 }
 
 .main-nav {
