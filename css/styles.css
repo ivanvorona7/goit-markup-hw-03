@@ -237,10 +237,6 @@ color: #434455;
 text-align: center;
 }
 
-.heading{
-    margin-bottom: 72px;
-}
-
 .title-list {
 display: flex;
 gap: 24px;
@@ -270,7 +266,7 @@ color:#2e2f42;
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
-letter-spacing: 0.02em;     
+letter-spacing: 0.02em;  
 }
 .portfolio-iteam {
 font-size: 16px;
@@ -299,6 +295,12 @@ border: 1px solid #e7e9fc;
 border-top: none;
 margin-bottom: 8px;
 }
+
+.portfolio-section{
+    padding-top: 120px; 
+    padding-bottom: 120px;
+}
+
 /* #endregion portfolio */
 
 /* #region footer */
