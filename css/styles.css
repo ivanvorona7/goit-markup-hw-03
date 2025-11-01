@@ -83,9 +83,7 @@ color: #434455;
     border-bottom: 1px solid#e7e9fc;
     width: 1158px; 
     margin: 0 auto;
-    padding: 0 15px;
-    display: flex;
-    justify-content: space-between;
+    padding: 0 15px; 
 }
 .container {
     padding-left: 15px;
@@ -103,7 +101,6 @@ color: #434455;
 .menu {
     display: flex;
     gap: 40px;
-    margin-right: auto;
 }
 
 .nav-link {
