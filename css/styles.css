@@ -84,20 +84,33 @@ color: #434455;
     color:#404bbf;
 }
 
-.header-background .container {
+.header-background {
     border-bottom: 1px solid #e7e9fc;
-    display: flex;
-        align-items: center;
-        justify-content: space-between;
-        width: 1158px;
-        margin: 0 auto;
-        padding: 0 15px;
 }
 
+.container {
+width: 1158px;
+margin: 0 auto;
+padding: 0 15px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.container {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
 
 .main-nav {
     display: flex;
     align-items: center;
+}
+
+.menu {
+    display: flex;
+    gap: 40px;
 }
 /* #endregion header */
 
