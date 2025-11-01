@@ -300,6 +300,10 @@ border-top: none;
     padding-bottom: 120px;
 }
 
+.heading-list-item {
+    width: calc((100% - 48px) / 3);
+}
+
 /* #endregion portfolio */
 
 /* #region footer */
