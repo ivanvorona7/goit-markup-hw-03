@@ -209,10 +209,13 @@ width: calc((100% - 72px) / 4);
 /* #region team */  
 .title-isteam-section{
 background-color: #f4f4fd;
+padding: 120px 0;
 }
 
 .title-line {
 background-color:#FFFFFF;
+width: calc((100% - 72px) / 4);
+border-radius: 0px 0px 4px 4px;
 }
 
 .title{
@@ -221,6 +224,8 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color:#2e2f42;
+text-align: center;
+margin-bottom: 8px;
 }
 
 .title-iteam{
@@ -229,7 +234,23 @@ font-size: 16px;
  line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
+text-align: center;
 }
+
+.heading{
+    margin-bottom: 72px;
+}
+
+.title-list {
+display: flex;
+gap: 24px;
+}
+
+.title-workers {
+    padding: 32px 0;
+}
+
+
 /* #endregion team */
 
 /* #region portfolio */
