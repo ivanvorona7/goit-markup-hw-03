@@ -16,6 +16,8 @@ li {
 
 img {
     display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 body {
@@ -221,6 +223,17 @@ background-color: #f4f4fd;
 padding: 120px 0;
 }
 
+.heading-workers {
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-align: center;
+        text-transform: capitalize;
+        color: #2e2f42;
+        margin-bottom: 72px;
+}
+
 .title-line {
 background-color:#FFFFFF;
 width: calc((100% - 72px) / 4);
@@ -298,7 +311,7 @@ display: flex;
 flex-wrap: wrap;
 column-gap: 24px;
 row-gap: 48px;
-width: calc((100% - 48px) / 3);
+
 }
 
 .container-heading {
@@ -348,7 +361,6 @@ letter-spacing: 0.02em;
 color: #f4f4fd;
 background-color: #2e2f42;
 max-width: 264px;
-display: inline-block;
 margin-bottom: 16px;
 }
 
