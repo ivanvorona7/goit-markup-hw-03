@@ -33,14 +33,16 @@ ul {
     list-style: none;
 }
 
-.container {
-    width: 1158px;
-    margin: 0 auto;
-    padding: 0 15px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+ .container {
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 100%;
+  max-width: 1166px;
+  margin-left: auto;
+  margin-right: auto;
+
+ }
+
 
 .visually-hidden {
     position: absolute;
@@ -108,9 +110,15 @@ color: #434455;
     color:#404bbf;
 }
 
-.header-background {
+.header-background .container{
 border-bottom: 1px solid #e7e9fc;
-}
+display: flex;
+gap: 90px;
+justify-content: space-between;
+align-items: center;
+height: 80px;
+    }
+
 
 .main-nav {
     display: flex;
