@@ -309,8 +309,8 @@ border-top: none;
 .footer-background {
     background-color: #2e2f42;
     padding: 100px 0;
-    display: inline-block;
 }   
+
 .text-raleway-footer {
     color: #f4f4fd;
 }
@@ -324,6 +324,7 @@ border-top: none;
     text-transform: uppercase;
     color: #4d5ae5;
     background-color: #2e2f42;
+    display: inline-block;
     margin-bottom: 16px;
 }
 
