@@ -112,7 +112,7 @@ color: #434455;
     color:#404bbf;
 }
 
-.header-background .container {
+.header-background .container{
 border-bottom: 1px solid #e7e9fc;
 display: flex;
 gap: 90px;
@@ -120,6 +120,11 @@ justify-content: space-between;
 align-items: center;
 height: 80px;
 }
+
+.header-background {
+    border-bottom: 1px solid #e7e9fc;
+}
+    
 
 
 .main-nav {
