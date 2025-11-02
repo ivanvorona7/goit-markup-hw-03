@@ -315,7 +315,7 @@ border-top: none;
     color: #f4f4fd;
 }
 
-.footer-logo {
+/* .footer-logo {
     font-family: 'Raleway',sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -326,8 +326,20 @@ border-top: none;
     background-color: #2e2f42;
     display: inline-block;
     margin-bottom: 16px;
-}
+} */
 
+.footer-background .container .footer-logo {
+    display: inline-block !important;
+    margin-bottom: 16px !important;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    background-color: #2e2f42;
+}
 .footer-text {
 font-weight: 400;
 font-size: 16px;
