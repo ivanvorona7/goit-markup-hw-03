@@ -309,13 +309,13 @@ border-top: none;
 .footer-background {
     background-color: #2e2f42;
     padding: 100px 0;
+    display: inline-block;
 }   
 .text-raleway-footer {
     color: #f4f4fd;
 }
 
 .footer-logo {
-    display: inline-block;
     font-family: 'Raleway',sans-serif;
     font-weight: 700;
     font-size: 18px;
