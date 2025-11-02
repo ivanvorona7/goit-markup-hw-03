@@ -336,6 +336,8 @@ letter-spacing: 0.02em;
 color: #f4f4fd;
 background-color: #2e2f42;
 max-width: 264px;
+display: inline-block;
+margin-bottom: 16px;
 }
 
 /* #endregion footer */
